@@ -108,7 +108,7 @@ const Projects = () => {
                                 </div>
                                 <div className='flex flex-grow justify-end items-center '>
                                     <button className="box px-4 my-10 py-2 rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md">
-                                        <Link href={'https://weathermon-pjnlxhjir-kushagrpaliwals-projects.vercel.app/'} target='_blank'>Check Live</Link>
+                                        <Link href={'https://weathermon.vercel.app/'} target='_blank'>Check Live</Link>
                                     </button>
                                 </div>
                             </div>
