@@ -14,12 +14,12 @@ const Hero = () => {
   return (
     <div className='pb-20 ' id='hero'>
       <Spotlight
-        className="-top-[800px] left-0 sm:hidden lg:flex "
+        className="-top-[800px] left-0 xs:hidden lg:flex "
         fill="white"
       />
-      <nav className='flex flex-row p-12 '>
-        <p className='md:text-2xl w-full font-bold'>Kushagra Paliwal </p>
-        <div className='flex flex-row list-none gap-5 lg:text-xl lg:flex sm:text-[12px] '>
+      <nav className='flex flex-row sm:px-12 sm:pt-12 xs:p-5  '>
+        <p className='md:text-2xl sm:text-lg xs:text-xs  w-full font-bold'>Kushagra Paliwal </p>
+        <div className='flex flex-row list-none sm:gap-5  xs:gap-2 lg:text-xl lg:flex sm:text-[12px] xs:text-[10px] '>
           {nav.map(navbar => (
             <Link href={navbar.link}>
               <li key={navbar.key}>{navbar.name}</li>
@@ -30,17 +30,17 @@ const Hero = () => {
       </nav>
 
       
-      <div className='flex flex-col text-center items-center md:-mt-[10px] sm:-mt-[100px] '>
+      <div className='flex flex-col text-center items-center md:-mt-[10px] sm:-mt-[100px] xs:-mt-[50px] '>
         <ContainerScroll
           titleComponent={
             <>
-              <div className="text-4xl font-semibold text-white dark:text-white leading-3">
-                <div className='lg:text-4xl sm:text-xl'>
+              <div className="text-4xl font-semibold text-white dark:text-white sm:leading-3 xs:leading-2 ">
+                <div className='lg:text-4xl sm:text-xl xs:text-sm'>
                 Solving Real World Problems with
                 </div>
                  <br />
-                <span className="flex justify-center text-center">
-                  <Texteffect text='Interactive Designs' textclass='flex text-4xl sm:text-[3.5rem] lg:text-[6rem] md:justify-center md:w-[600px] sm:w-[800px] sm:justify-center  lg:w-full font-bold mt-1 leading-none' />
+                <span className="flex justify-center text-center sm:mt-0 xs:-mt-10">
+                  <Texteffect text='Interactive Designs' textclass='flex text-4xl sm:text-[3.5rem] xs:text-[2.5rem] lg:text-[6rem] md:justify-center md:w-[600px] sm:w-[800px] sm:justify-center  lg:w-full font-bold mt-1 leading-none' />
                 </span>
               </div>
             </>

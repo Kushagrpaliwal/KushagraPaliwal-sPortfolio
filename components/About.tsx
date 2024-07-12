@@ -18,7 +18,7 @@ const About = () => {
                 <Meteors />
 
                 <div className="">
-                    <Texteffect text='Hello! My name is Kushagra Paliwal, a passionate software developer from Agra, Uttar Pradesh, India. With a robust foundation in web development . I specialize in creating , engaging and user-friendly digital experiences. I am good at developing responsive UI/UX designs that seamlessly transform ideas into functional and aesthetically pleasing solutions.' textclass=' lg:text-[2rem]  font-bold mt-1 mb-20 xl:w-[1200px] md:w-[700px] sm:w-[600px] lg:w-[900px] justify-center text-center leading-none gap-1' />
+                    <Texteffect text='Hello! My name is Kushagra Paliwal, a passionate software developer from Agra, Uttar Pradesh, India. With a robust foundation in web development . I specialize in creating , engaging and user-friendly digital experiences. I am good at developing responsive UI/UX designs that seamlessly transform ideas into functional and aesthetically pleasing solutions.' textclass=' lg:text-[2rem]  font-bold mt-1 mb-20 xl:w-[1200px] md:w-[700px] sm:w-[600px] xs:w-[400px] lg:w-[900px] justify-center text-center leading-none gap-1' />
                 </div>
                 <div>
                     <Image src="moon.svg" width={800} height={800} alt='aboutimg' className='w-full ' />
