@@ -65,7 +65,7 @@ const Hero = () => {
    </div>
 
 
-      <div className='flex flex-col text-center items-center md:-mt-[10px] sm:-mt-[100px] xs:-mt-[50px] s:-mt-[35px] '>
+      <div className='flex flex-col text-center items-center md:-mt-[10px] sm:-mt-[100px] xs:-mt-[50px] s:-mt-[30px] '>
         <ContainerScroll
           titleComponent={
             <>
