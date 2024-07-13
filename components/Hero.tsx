@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
         </nav>
           
-          <div className='xs:hidden s:flex w-full items-center justify-center -mt-5 z-10'>
+          <div className='xs:hidden s:flex w-full items-center justify-center -mt-5 '>
         {
           menu && (
             <div className=' w-[80%] rounded-lg p-5 bg-lightblackish xs:hidden s:flex '>
@@ -65,7 +65,7 @@ const Hero = () => {
    </div>
 
 
-      <div className='flex flex-col text-center items-center md:-mt-[10px] sm:-mt-[100px] xs:-mt-[50px] s:-mt-[40px] '>
+      <div className='flex flex-col text-center items-center md:-mt-[10px] sm:-mt-[100px] xs:-mt-[50px] s:-mt-[35px] '>
         <ContainerScroll
           titleComponent={
             <>

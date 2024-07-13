@@ -90,7 +90,7 @@ const Projects = () => {
                                 <div className='flex xs:justify-end items-center box xl:pl-20 sm:pl-0 xs:pr-10 s:justify-center xs:mt-0 s:mt-5  '>
                                     <AnimatedTooltip items={travel} />
                                 </div>
-                                <div className='flex flex-grow justify-end items-center '>
+                                <div className='flex flex-grow justify-end items-center xs:px-0 s:px-5 '>
                                     <button className="box px-4 my-10 py-2 s:w-full xs:w-auto  rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md">
                                         <Link href={'https://travel-website-one-alpha.vercel.app/'} target='_blank'>Check Live</Link>
                                     </button>
@@ -109,7 +109,7 @@ const Projects = () => {
                         <div className='flex text-right flex-col sm:w-[800px] 2xl:w-[800px] xl:w-[600px]  items-center justify-center xl:mr-10  sm:mt-20 xs:w-full xs:mt-10'>
                             <p className='font-bold text-[50px] xl:block s:hidden 2xl:w-[800px] sm:w-[800px] xl:w-[600px] box '>Weathermon a Variety Weather Forecast Webapp  </p>
                             <p className='xs:mt-2 s:mt-5 font-light 2xl:w-[800px] xl:w-[600px] sm:w-[500px] s:w-[80%] xl:pl-20  box'>  Weathermon is a versatile web application providing detailed weather forecasts tailored to your location. With sleek design and intuitive interface, it delivers up-to-date weather conditions, hourly and daily forecasts, and interactive maps. Stay informed with real-time updates on temperature, humidity, and precipitation trends, making planning effortless.</p>
-                            <div className='2xl:w-[800px] xl:w-[600px]  sm:w-[500px]   flex xs:flex-row s:flex-col justify-between mb-10'>
+                            <div className='2xl:w-[800px] xl:w-[600px]  sm:w-[500px]  flex xs:flex-row s:flex-col justify-between mb-10'>
                                 <div className='flex xs:justify-end items-center box xl:pl-20 sm:pl-0 sm:pr-10 xs:pr-8  s:justify-center xs:mt-0 s:mt-5'>
                                     <AnimatedTooltip items={weathermon} />
                                 </div>
