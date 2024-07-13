@@ -13,7 +13,7 @@ const Exp = () => {
         <p>My Experiences</p>
       </div>
       <AnimatedBoxes boxClassName='box'>
-      <div className="flex flex-col items-center justify-center gap-10">
+      <div className="flex flex-col items-center justify-center gap-10 p-2">
         <WobbleCard
           containerClassName="w-full max-w-[1200px] h-full bg-darkblackish min-h-[400px] lg:min-h-[500px] box"
         >

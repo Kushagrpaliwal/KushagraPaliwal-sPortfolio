@@ -12,6 +12,8 @@ const config: Config = {
   darkMode: ["class"],
   theme: {
     screens: {
+      's': '320px',
+
       'xs': '400px',
       
       'sm': '640px',
