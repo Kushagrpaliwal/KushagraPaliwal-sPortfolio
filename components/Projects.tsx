@@ -28,7 +28,7 @@ const Projects = () => {
                                 adding titles and categories.
                                 The app features a responsive design for a seamless experience across various devices, and a user-friendly interface with intuitive controls.</div>
                             <div className='2xl:w-[800px] xl:w-[600px]  sm:w-[500px] flex xs:flex-row s:flex-col justify-between xs:mb-10 s:mb-0'>
-                            <div className='flex items-center box xs:hidden s:flex mt-2 pr-4'>
+                                <div className='flex items-center box xs:hidden s:flex mt-2 pr-4'>
                                     <AnimatedTooltip items={todomon} />
                                 </div>
                                 <div className='flex justify-start '>
@@ -58,7 +58,7 @@ const Projects = () => {
                                 HTML, CSS, JavaScript, React with Tailwind css is used to create this project .
                                 Conducted thorough testing and debugging to deliver a high-quality, responsive application. Enhanced problem-solving and coding skills.</div>
                             <div className='2xl:w-[800px] xl:w-[600px]  sm:w-[500px] flex xs:flex-row s:flex-col justify-between xs:mb-10 s:mb-0'>
-                            <div className='flex xs:hidden s:flex justify-end items-center box mt-2 pr-4'>
+                                <div className='flex xs:hidden s:flex justify-end items-center box mt-2 pr-4'>
                                     <AnimatedTooltip items={apple} />
                                 </div>
                                 <div className='flex justify-start'>
@@ -79,20 +79,22 @@ const Projects = () => {
 
 
                     <div className='flex xl:flex-row s:flex-col  sm:items-center mt-40 box'>
-                        <p className='font-bold sm:text-[50px] sm:flex xl:hidden  md:w-[500px] sm:w-[500px] s:text-[35px] sm:mb-10 s:mb-10  box '>Hilink Traveling Guide </p>
-                        <div className='flex justify-center'>
-                            <Image src="/p3.png" width={500} height={500} alt='p1img' className='bg-gray-300 sm:mt-20 xl:mt-0 xs:w-[70%] s:w-[90%] sm:w-full  rounded-2xl box' />
+                        <p className='font-bold sm:text-[50px] sm:flex xl:hidden  md:w-[500px] sm:w-[500px] s:text-[35px] sm:mb-10 s:mb-10  box '>Patient Management System </p>
+                        <div className='flex justify-center '>
+                            <Image src="/pms2.png" width={500} height={500} alt='p1img' className='bg-gray-300  sm:mt-20 xl:mt-0 xs:w-[70%] s:w-[90%] h-full sm:w-full  rounded-2xl box' />
                         </div>
                         <div className='flex text-right  flex-col sm:w-[800px]  2xl:w-[800px] xl:w-[600px] justify-center items-center xl:mr-10 sm:mt-20 xs:mt-10'>
-                            <p className='font-bold text-[50px] xl:block s:hidden 2xl:w-[800px] sm:w-[800px] xl:w-[600px] box '>Hilink Traveling Guide </p>
-                            <p className='xs:mt-2 s:mt-5 font-light 2xl:w-[800px] xl:w-[600px] sm:w-[500px]  s:w-[80%] xl:pl-20 sm:pl-0 sm:pl-[50px]  box'> Hilink Traveling Guide is your essential companion for seamless journeys. Discover destinations, plan trips effortlessly, and access curated local insights. With intuitive navigation and real-time updates, it's your passport to enriched travel experiences.</p>
+                            <p className='font-bold text-[50px] xl:block s:hidden 2xl:w-[800px] sm:w-[800px] xl:w-[600px] box '>Patient Management System </p>
+                            <p className='xs:mt-2 s:mt-5 font-light 2xl:w-[800px] xl:w-[600px] sm:w-[500px]  s:w-[80%] xl:pl-20 sm:pl-0 sm:pl-[50px]  box'>
+                                The Patient Management Systems Webapp is a comprehensive digital solution designed to streamline healthcare operations. It offers an intuitive interface for managing patient records, appointments, and medical histories, ensuring easy access and efficient data handling.
+                            </p>
                             <div className='2xl:w-[800px] xl:w-[600px]  sm:w-[500px] s:w-[80%]  flex xs:flex-row s:flex-col justify-between mb-10'>
                                 <div className='flex xs:justify-end items-center box xl:pl-20 sm:pl-0 xs:pr-10 s:justify-center xs:mt-0 s:mt-5  '>
                                     <AnimatedTooltip items={travel} />
                                 </div>
                                 <div className='flex flex-grow justify-end items-center xs:px-0 s:px-5 '>
                                     <button className="box px-4 my-10 py-2 s:w-full xs:w-auto  rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md">
-                                        <Link href={'https://travel-website-one-alpha.vercel.app/'} target='_blank'>Check Live</Link>
+                                        <Link href={'https://pms-coral-tau.vercel.app/'} target='_blank'>Check Live</Link>
                                     </button>
                                 </div>
                             </div>
